@@ -42,3 +42,55 @@ h6,
 span {
   overflow-wrap: break-word;
 }
+
+* {
+  color: black;
+}
+
+.f {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid black;
+}
+
+.q {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.q span {
+  font-size: 2rem;
+}
+
+.q svg {
+  width: 2rem;
+  height: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  /* width: calc($fs-md - 0.25rem);
+  height: calc($fs-md - 0.25rem);
+  min-width: calc($fs-md - 0.25rem);
+  min-height: calc($fs-md - 0.25rem); */
+  margin-top: 0.1rem;
+  stroke: black;
+  stroke-width: 2;
+  transform: rotate(45deg);
+  transition: all ease-in-out 300ms;
+}
+
+.q svg.open {
+  transform: rotate(0deg);
+  transition: all ease-in-out 300ms;
+}
+
+.a p,
+.a div {
+  padding-top: 0.25rem;
+}
+.a a {
+  color: black;
+}
